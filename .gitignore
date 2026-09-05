@@ -1,0 +1,115 @@
+# --- Build output ---
+build/
+.gradle/
+.cxx/
+out/
+bin/
+gen/
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+local.properties
+
+# --- Signing keys & secrets (NEVER commit) ---
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pepk
+*.der
+keystore.properties
+signing.properties
+.signing-private/
+.android-local/
+.android-user/
+.android-debug.keystore
+secrets.properties
+*.env
+.env*
+
+# --- Binary artifacts ---
+*.apk
+*.aab
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# --- Heavy working folders ---
+captures/
+artifacts/
+delivery/
+design_work/
+_archive/
+_avia_backup/
+_run_log*.txt
+
+# --- Logs & crash dumps ---
+*.log
+hs_err_pid*
+replay_pid*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Local toolchains / emulator (huge) ---
+.gradle-local/
+.android-sdk/
+.android/
+*.avd/
+*.img
+*.qcow2
+*.qcow
+
+# --- QA / dist / release working folders ---
+qa/
+dist/
+test-output/
+release/
+tmp/
+screenshots/
+captures*/
+design_work*/
+
+# --- Design / art working files (not needed to build) ---
+design/
+design-*/
+art/generated/
+art/source/
+fresh-screenshots/
+campaign-concept-studio/
+frostline-fishing-work/
+_avia_backup/
+concepts/
+imagegen-source/
+
+# --- Local tool homes ---
+.gradle-home/
+.android-home/
+.emulator-home/
+.kotlin/
+
+# --- internal working notes (not part of the shipped game) ---
+AGENTS.md
+MASTER_PROMPT.md
+PROMPT.md
+ZEUS_TEMPLE_STACK_*.md
+GAME_FACTORY_RULES.md
+LESSONS_LEARNED.md
+FACTORY_LESSONS_PROPOSED.md
+CURRENT_STATE.md
+GAME_MANIFEST.md
+CLIENT_ARCHIVE_README.txt
+SUBMISSION_README.txt
+*IMAGEGEN_PROMPTS*.md
+DESIGN_AUDIT*.md
+docs/superpowers/
+.codex-tmp/
+__pycache__/
+*.pyc
+*.orig
